@@ -1,6 +1,6 @@
 # Experiment-2345
 welcome to experiment 2345, your data will be submitted to the archive
-Find the yellow dot
+
 
 The experiment had been fully updated from 1416 to 2345, as report had shown that Experiment 1416 had unusual behaviors in our system
 
