@@ -1,0 +1,22 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2d Raycasting</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onkeydown = "player.control.move(event)" onkeyup = "player.control.stop()">
+<div class="lines"></div>
+<div class="breakLine"></div>
+<div class = "container"><h1 id = "title">Find the yellow dot. </h1>
+    <canvas id= "canva" width = "800" height="800">sorry, your browser does not support canvas</canvas>
+    <input type="button" value="unshow Raycasting polygon" id="ifShowPG" style = "display: none">
+    <label for="raysize"></label><input type="range" id="raysize" name="raysize" min="10" max="1000" style = "display: none">
+    <h2>WASD move</h2></div>
+<div class = "greatOver" id = "over"></div>
+<script src="levelLoader.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
